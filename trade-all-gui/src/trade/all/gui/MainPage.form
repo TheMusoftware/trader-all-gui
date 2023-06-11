@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="currenciesList">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cPrice" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="buyButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                                      <Component id="sellButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="investment" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" alignment="0" pref="562" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="summary" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lastTime" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="logOut" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="userInfo" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="eur" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="usd" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="gbp" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="xau" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="gbpICon" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="eurIcon" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="usdIcon" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="xauIcon" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="usdPrice" min="-2" max="-2" attributes="0"/>
+                                          <Component id="eurPrice" min="-2" max="-2" attributes="0"/>
+                                          <Component id="gbpPrice" min="-2" max="-2" attributes="0"/>
+                                          <Component id="xauPrice" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+              <Component id="cPrice" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lastTime" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="usdIcon" min="-2" max="-2" attributes="0"/>
+                                          <Component id="usdPrice" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="eurIcon" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="eurPrice" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="gbpICon" min="-2" max="-2" attributes="0"/>
+                                  <Component id="gbpPrice" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="usd" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Component id="eur" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Component id="gbp" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xauIcon" min="-2" max="-2" attributes="0"/>
+                          <Component id="xau" min="-2" max="-2" attributes="0"/>
+                          <Component id="xauPrice" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="373" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="buyButton" min="-2" max="-2" attributes="0"/>
+                  <Component id="sellButton" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="userInfo" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="summary" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="investment" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="logOut" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JRadioButton" name="eur">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="currenciesList"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="eurMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="xau">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="currenciesList"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="xauMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="usd">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="currenciesList"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="usdMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="gbp">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="currenciesList"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gbpMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="usdIcon">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/trade/all/gui/usd.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eurIcon">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/trade/all/gui/eur.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gbpICon">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/trade/all/gui/gbp.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="xauIcon">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/trade/all/gui/gold.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="userInfo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/trade/all/gui/user.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="User Full Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cPrice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Current Price"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastTime">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="10" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Last Updated: hh:mm:ss   dd/mm/yy "/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="operationsArea">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="AppleGothic" size="13" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Please select currency."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="buyButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Buy"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="buyButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sellButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sell"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sellButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="usdPrice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="usdPrice"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eurPrice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="eurPrice"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gbpPrice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="gbpPrice"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="xauPrice">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="xauPrice"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="summary">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="currenciesList"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Show Summary"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="summaryMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="investment">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="currenciesList"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Investment Propal"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="investmentMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="logOut">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleGothic" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Click here to log out"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="logOutMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

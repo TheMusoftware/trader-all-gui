@@ -1,0 +1,7 @@
+demouser<>true<>USD<>1000.0<>21.6<>15:14:40  11 June 23
+demouser<>true<>EUR<>100.0<>27.0<>15:15:02  11 June 23
+demouser<>true<>GBP<>100.0<>29.463<>15:15:23  11 June 23
+demouser<>true<>USD<>1000.0<>13.45<>15:15:54  11 June 23
+demouser<>false<>USD<>-500.0<>23.474<>15:17:14  11 June 23
+demouser<>true<>XAU<>1.0<>1496.79<>15:24:30  11 June 23
+demouser<>true<>XAU<>1.0<>1320.0<>15:24:44  11 June 23
