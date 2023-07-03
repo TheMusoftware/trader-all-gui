@@ -226,6 +226,8 @@ public class FileOperations {
     sb.append("Total profit ratio: ");
     if (user.getTotalDeposit() != 0 && user.getTotalValue() != 0) {
         sb.append(String.format("%.2f%%", ratio));
+        sb.append("\nTotal Balance:");
+        sb.append(String.format(" %.2f TL",user.getTotalValue()));
     } 
     else if(user.getTotalValue() == 0){
         sb.append("Your balance is 0");
