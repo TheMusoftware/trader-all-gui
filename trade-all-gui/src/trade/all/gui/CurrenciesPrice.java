@@ -18,7 +18,7 @@ public class CurrenciesPrice {
     
    private static String getPrice(String page) throws IOException{
        Document d =  Jsoup.connect(page).get();
-       Elements e = d.selectXpath("/html/body/div[3]/div[2]/div[1]/div[6]/div[1]/div/div/table/tbody/tr[3]/td[3]");
+       Elements e = d.selectXpath("/html/body/div[3]/div[2]/div[1]/div[6]/div/table/tbody/tr[3]/td[3]");
         String price = e.text();
         price = price.replace(".","");
         price = price.replace(",",".");
